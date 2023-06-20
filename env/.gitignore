@@ -1,0 +1,29 @@
+# Archivos de configuración
+.env
+.env.*
+.venv
+.vscode/
+
+# Directorio de entorno virtual
+env/
+
+# Dependencias instaladas
+/venv/
+/venv*/
+
+
+# Archivos de registro y salida
+*.log
+*.txt
+/logs/
+
+# Archivos generados
+*.pyc
+__pycache__/
+
+# Directorio de resultados de pruebas
+/test-results/
+
+# Archivos y directorios específicos
+db.sqlite3
+media/
